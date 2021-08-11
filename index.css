@@ -2,8 +2,8 @@ body {
   background-color: #d5d5d5;
 }
 .flag-group {
-  display: flex;
-  justify-content: space-around;
+  display: inline-block;
+  margin: 0px 15px 15px 0;
 }
 
 .flag {
@@ -23,12 +23,4 @@ h3 {
 p {
   font-size: 12px;
   margin-left: 10px;
-}
-@media (max-width: 768px) {
-  .flag-group {
-    flex-direction: column;
-  }
-  .flag {
-    margin-bottom: 20px;
-  }
 }
